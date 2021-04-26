@@ -10,6 +10,17 @@ Jiaman Betty Wu,
 Yiwen Wang, and
 Christopher Oblak</p>
 
+## Using This Repo
+
+The repo contains major coding notebooks that allowed us to reach our results posted below.  To repeat these steps and allow a visitor to use this code, we have placed the consolidated main notebook in the parent folder 10_code, and subsequent code used to explore and work toward are end goal in a sub folder 11_usefulCode.  
+
+To explore, tune, run, and predict stock fluctuations please use the notebook “Final_Youtube_Content_NoteBook_23APR.ipynb” in the parent 10_code folder and install dependencies for the requirement.txt file.  All required data set that have been cleaned and aggregated are in the 00_data folder and are properly referenced.  
+
+Note:  For real time prediction outside of the data provided you will need to acquire a YouTube API v2 Authorization key.
+
+
+## Project Overview
+
 ### Abstract: 
 
 In this project, we built predictive models using YouTube to predict "buy", "hold", and "sell" on Nvidia stock.  We explored many avenues for feature building and concluded on the use of basic video metrics, sentiment analysis on captions and video titles.  Using this information, we achieved a validation accuracy of 80.4% for buy, a hold accuracy of 84.6%, and a sell accuracy of 62.9%. In the past, research was conducted using text based social media to predict the stock price but we believed YouTube could perform better as videos have more information than tweets. As a result, we found YouTube has promising predictive power over stock prices. 
