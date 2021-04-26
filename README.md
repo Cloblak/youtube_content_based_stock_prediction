@@ -37,6 +37,8 @@ The second step is to create the response variable based on 96-hour later percen
 
 Of the models we ran on our data, we found the Light Gradient Boosting Machine to be the most effective, giving us a buy accuracy of 80.4%, a hold accuracy of 84.6%, and a sell accuracy of 62.9% on our validation data. Conversely, our baseline model (Logistic Regression) generated accuracies of 33.9% for buy, 83.85% for hold, and 44.4% for sell.
 
+![Confusion Matrix](ConfusionMatrixs_26APR.png?raw=true&s=100)
+
 Our analysis highlighted that information from YouTube videos were useful to facilitate investment decisions in the stock market because our models showed promising results in confusion matrices and accuracy scores. From the feature importance plots, the sentiments of video titles and captions  are the top three important features in our model. However, our model was only trained on a small dataset and did not account for the time series property of stock price so the model may not perform well for unseen data. For instance, Nvidia’s stock price rocketed from $552 on April 1st to $623 USD on April 14 but our model still predicted “sell” actions. 
 
 ### Summarized Conclusion
