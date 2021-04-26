@@ -26,7 +26,7 @@ Note:  For real time prediction outside of the data provided you will need to ac
 In this project, we built predictive models using YouTube to predict "buy", "hold", and "sell" on Nvidia stock.  We explored many avenues for feature building and concluded on the use of basic video metrics, sentiment analysis on captions and video titles.  Using this information, we achieved a validation accuracy of 80.4% for buy, a hold accuracy of 84.6%, and a sell accuracy of 62.9%. In the past, research was conducted using text based social media to predict the stock price but we believed YouTube could perform better as videos have more information than tweets. As a result, we found YouTube has promising predictive power over stock prices. 
 
 Questions we wish to tackle:
-  - Does content of top searched youtube videos provide an accurate indicator for stock fluctuations 
+  - Does content of top searched youtube videos provide an accurate indicator for stock fluctuations?
   - Can we use the youtube content (captions, title names) to decide trading actions(buy, sell and hold)? 
 
 
