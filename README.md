@@ -1,3 +1,5 @@
+<p align="center">
+
 # Youtube Content Based Stock Prediction Sentiment
 
 This Repo is a representation of Team 2's Final Project for Duke MIDS IDS 705: Machine Learning, Spring 2021 class
@@ -9,9 +11,11 @@ Jiaman Betty Wu,
 Yiwen Wang, and
 Christopher Oblak
 
+</p>
+
 ### Abstract: 
 
-YouTube is a source of generally untapped expert knowledge and popular opinion trends when it comes to automated modeling.   Much like the news, online forums, and Twitter posts, YouTube is an outlet for information sharing.  The large difference in most cases is that individuals who are able to amass a large following are garnering huge influential power in the way products and services are received by the population that would use them.  In this specific instance, we are interested in YouTube’s top return search content for Nvidia from October 2020 to the present day.  We hope to show that the top videos on a given day have potential predictive properties associated with their influence for new and upcoming products that could shape the markets they are tied to.  To do this we will look at standard easy to retrieve metrics such as views, video titles, likes, dislikes, and dates published.  We also wish to harness the content of the video themselves through the use of YouTube’s automated captions. These captions have improved significantly over the course of the last five years, and are not being utilized in the manner Twitter and other easy-to-access media is.  The influential power of youtube content creators, along with mining captions is manner not seen elsewhere, we hope to find predictive power to anticipate market shifts, ultimately highlighting the influential power of youtube and its content. 
+In this project, we built predictive models using YouTube to predict "buy", "hold", and "sell" on Nvidia stock.  We explored many avenues for feature building and concluded on the use of basic video metrics, sentiment analysis on captions and video titles.  Using this information, we achieved a validation accuracy of 80.4% for buy, a hold accuracy of 84.6%, and a sell accuracy of 62.9%. In the past, research was conducted using text based social media to predict the stock price but we believed YouTube could perform better as videos have more information than tweets. As a result, we found YouTube has promising predictive power over stock prices. 
 
 Questions we wish to tackle:
   - Does content of top searched youtube videos provide an accurate indicator for stock fluctuations 
