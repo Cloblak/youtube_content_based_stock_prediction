@@ -14,7 +14,7 @@ Christopher Oblak</p>
 
 The repo contains major coding notebooks that allowed us to reach our results posted below.  To repeat these steps and allow a visitor to use this code, we have placed the consolidated main notebook in the parent folder 10_code, and subsequent code used to explore and work toward are end goal in a sub folder 11_usefulCode.  
 
-To explore, tune, run, and predict stock fluctuations please use the notebook “Final_Youtube_Content_NoteBook_23APR.ipynb” in the parent 10_code folder and install dependencies for the requirement.txt file.  All required data set that have been cleaned and aggregated are in the 00_data folder and are properly referenced.  
+To explore, tune, run, and predict stock fluctuations please use the notebook “Final_Youtube_Content_NoteBook_23APR.ipynb” in the parent 10_code folder and install dependencies from the requirement.txt file.  All required data sets that have been cleaned and aggregated are in the 00_data folder and are properly referenced.  
 
 Note:  For real time prediction outside of the data provided you will need to acquire a YouTube API v2 Authorization key.
 
